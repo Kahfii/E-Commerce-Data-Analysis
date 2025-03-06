@@ -217,7 +217,7 @@ def main():
             y="customer_unique_id",
             orientation='h',
             color="Monetary",
-            color_continuous_scale="Oranges_r",
+            color_continuous_scale="Oranges",
             labels={"Monetary": "Monetary (Jumlah Pengeluaran)", "customer_unique_id": "Customer Unique ID"},
             title="10 Customers dengan Monetary Tertinggi"
         )
